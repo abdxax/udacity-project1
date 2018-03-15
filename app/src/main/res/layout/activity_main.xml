@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdulrahman.project1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/riyadh"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="C.V"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/cv"
+            android:padding="8dp"
+
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ab"
+            android:layout_below="@id/cv"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image"
+            android:layout_margin="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="Abdulrahman"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/abdurahman"
+            android:layout_below="@id/image"
+            android:padding="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="Saudi Arabia"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/country"
+            android:layout_below="@id/abdurahman"
+            android:padding="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="aljarallahabdulrahman@gmail.com"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/email"
+            android:layout_below="@id/country"
+            android:padding="8dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="00966568508989"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/phone"
+            android:layout_below="@id/email"
+            android:padding="8dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="Majer : Software Engineering "
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/majer"
+            android:layout_below="@id/phone"
+            android:padding="8dp"
+
+            />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
